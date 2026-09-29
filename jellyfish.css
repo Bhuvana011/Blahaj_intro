@@ -1,0 +1,45 @@
+body{
+    text-align:center;
+    background-image: url("rain.jpg");
+    background-size: cover;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    cursor: url('fishing-rod.png'), auto;
+}
+p{
+    size:25px;
+}
+img{
+    width:150px;
+}
+p{
+    margin-left:35px;
+    margin-right:35px;
+}
+button{
+    float:center;
+    background-color:rgb(148, 158, 248);
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    border-radius: 7px;
+    border:none;
+    padding:10px;
+    cursor:pointer;
+}
+.div-intro{
+    background-color:rgb(249, 153, 153);
+}
+.div-1{
+    background-color:rgb(255, 210, 125);
+}
+.div-2{
+    background-color:rgb(247, 247, 161);
+}
+.div-3{
+    background-color:rgb(175, 255, 175);
+}
+.div-4{
+    background-color:rgb(201, 201, 255);
+}
+.div-end{
+    background-color:rgb(197, 176, 210);
+}

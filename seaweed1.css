@@ -1,0 +1,26 @@
+body{
+    text-align:center;
+    background-color:rgb(195, 211, 253);
+    font-family:'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    margin-top:-15px;
+    font-size:65px;
+}
+h3{
+    margin-top:-25px;
+    font-weight: normal;
+}
+
+img{
+    width:150px;
+}
+button{
+    float:center;
+    background-color:rgb(148, 158, 248);
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    border-radius: 7px;
+    border:none;
+    padding:10px;
+}

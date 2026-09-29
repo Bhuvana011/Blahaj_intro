@@ -1,0 +1,71 @@
+body{
+    text-align:center;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-weight:bolder;
+    background-color: rgb(171, 165, 251);
+    position:relative;
+}
+h3{
+    font-weight:nromal;
+}
+.haj{
+    width:100px;
+    margin-top:-15px;
+    margin-left:1150px;
+    float:right;
+    animation: swim 10s linear infinite;
+}
+
+.fishh{
+    width:108px;
+    margin-top:19px;
+    margin-left: -600px;
+    animation: fishswim 20s linear infinite;
+}
+
+@keyframes jelly{
+    0%{
+        transform: translateY(0vw);
+    }
+    50%{
+        transform: translateY(-35vw);
+    }
+    100%{
+        transform: translateY(0vw);
+    }
+}
+
+@keyframes fishswim{
+    0%{
+        transform:translateX(-35vw);
+    }
+    50%{
+        transform:translateX(75vw);
+    }
+    100%{
+        transform:translateX(-35vw);
+    }
+
+}
+
+.sewed1{
+    position:absolute;
+    width:155px;
+    float:left;
+}
+
+@keyframes swim{
+    0%{
+        transform: translateX(5vw);
+    }
+    50%{
+        transform: translateX(-100vw);
+    }
+    100%{
+        transform: translateX(5vw)
+    }
+}
+
+img{
+    cursor: url('fishing-rod.png'), auto;
+}

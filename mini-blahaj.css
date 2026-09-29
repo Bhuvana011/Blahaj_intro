@@ -1,0 +1,35 @@
+.haj{
+    width:175px;
+}
+body{
+    text-align:center;
+    background-color:rgb(195, 211, 253);
+    font-family:'Arial Narrow', Arial, sans-serif;
+    cursor: url('fishing-rod.png'), auto;
+}
+button{
+    float:center;
+    background-color:rgb(148, 158, 248);
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    border-radius: 7px;
+    border:none;
+    padding:10px;
+    cursor:pointer;
+}
+
+@keyframes jelly{
+    0%{
+        transform: translateY(0vw);
+    }
+    50%{
+        transform: translateY(-50vw);
+    }
+    100%{
+        transform: translateY(0vw);
+    }
+}
+
+.glass-jelly{
+    animation: jelly 25s ease-in-out infinite;
+}
